@@ -1,0 +1,62 @@
+.adicionar-nota-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adicionar-nota-screen div {
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Baloo Chettan 2', cursive;
+    overflow-y: auto;
+}
+
+.adicionar-nota-screen div h1 {
+    font-size: 42px;
+    margin: 10px;
+}
+
+.adicionar-nota-screen div form {
+    width: 75%;
+    height: 75%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.adicionar-nota-screen div form input {
+    font-size: 36px;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    text-align:left;
+}
+
+
+.adicionar-nota-screen div form button {
+    background-color: #578543;
+    border: none;
+    border-radius: 20px;
+    font-size: 36px;
+    color: white;
+    font-family: 'Baloo Chettan 2', cursive;
+    height: 100px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+.adicionar-nota-screen div form button:hover {
+    cursor: pointer;
+    background-color: rgb(79, 114, 60);
+}

@@ -1,0 +1,9 @@
+.lista-profissionais-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+}

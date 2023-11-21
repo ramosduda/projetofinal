@@ -1,0 +1,37 @@
+.sair-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sair-screen section {
+    background-color: white;
+    width: 35%;
+    height: 80%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 42px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.sair-screen section button {
+    width: 50%;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: #578543;
+    font-size: 42px;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: white;
+}
+
+.sair-screen section button:hover {
+    cursor: pointer;
+    background-color: #4c753b;
+}

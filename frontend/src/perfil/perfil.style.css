@@ -1,0 +1,53 @@
+.perfil-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil-screen img {
+    height: 150px;
+    width: 150px;
+}
+
+.perfil-screen form {
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.perfil-screen form input {
+    width: 75%;
+    height: 15%;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.perfil-screen form button {
+    background-color: #578543;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Baloo Chettan 2', cursive;
+    height: 65px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+.perfil-screen form button:hover {
+    cursor: pointer;
+    background-color: rgb(79, 114, 60);
+}
+
+.perfil-screen form .descricao-input {
+    height: 40%;
+}

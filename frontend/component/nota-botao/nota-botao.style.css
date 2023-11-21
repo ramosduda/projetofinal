@@ -1,0 +1,16 @@
+
+.nota-botao {
+    width: 25%;
+    height: 40%;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 64px;
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 10px;
+}
+
+.nota-botao:hover {
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}

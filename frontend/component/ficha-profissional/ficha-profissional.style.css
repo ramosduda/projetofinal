@@ -1,0 +1,55 @@
+.ficha-profissional {
+    height: 35%;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 50px 0;
+}
+
+.ficha-profissional section {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ficha-profissional section img {
+    width: 110px;
+    height: 110px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.ficha-profissional section div {
+    height: 75%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ficha-profissional section div h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+.ficha-profissional section div h3 {
+    margin: 0;
+}
+
+.ficha-profissional footer {
+    height: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.ficha-profissional footer img {
+    width: 32px;
+    height: auto;
+    margin: 10px;
+}
