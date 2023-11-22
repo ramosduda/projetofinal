@@ -5,12 +5,12 @@ require('dotenv').config();
 
 // importar arquivos de rotas
 const userRouter  = require('./routes/usersRouter');
-const loginRouter = require('./routes/loginRouter');
+const loginRouter = require('./routes/loginRoutes');
 const postsRouter = require('./routes/postsRouter');
-const comentariosRouter = require('./routes/comentariosRouter');
+const comentariosRouter = require('./routes/comentariosRoutes');
 
 app.set('port', process.env.PORT);
-app.use(cors());
+//app.use(cors());
 app.use(express.json());
 
 // habilitar as rotas na aplicação

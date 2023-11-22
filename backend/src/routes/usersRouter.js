@@ -9,7 +9,7 @@ const {
   pesquisarNomeUsuario,
   atualizarUsuario,
   deletarUsuario
-} = require('../controllers/usersController')
+} = require('../controllers/userControllers')
 
 router.post('/cadastrar/usuario', upload.single('imagem'), salvarUsuario);
 router.get('/listar/usuarios', listarUsuarios);
