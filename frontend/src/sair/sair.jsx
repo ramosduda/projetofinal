@@ -1,7 +1,7 @@
 import "./sair.style.css"
 import { useNavigate } from "react-router-dom/dist";
 
-export function Sair() {
+export function sair() {
     const navigate = useNavigate();
 
     function sair() {

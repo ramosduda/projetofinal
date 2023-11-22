@@ -1,7 +1,7 @@
 import "./lista-profissionais.style.css"
-import { FichaProfissional } from "../../component"
+import { FichaProfissional } from "../component"
 import { useEffect, useState } from "react"
-import { listarEstabelecimentos } from "../../../api/estabelecimento/listar-estabelecimentos.api";
+import { listarEstabelecimentos } from "../api/estabelecimento/listar-estabelecimentos.api";
 
 export function ListaProfissionais() {
     const [estabelecimentos, setEstabelecimentos] = useState([]);

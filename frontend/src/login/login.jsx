@@ -1,9 +1,9 @@
 import "./login.style.css"
-import { RodapeLinha } from "../../component/index"
+import { RodapeLinha } from "../component/index"
 import { useNavigate } from "react-router-dom/dist";
 import { useState } from "react";
-import useGlobalUser from "../../../context/global-user.context";
-import { login } from "../../../api/usuario/login.api"
+import useGlobalUser from "../context/global-user.context";
+import { login } from "../api/usuario/login.api"
 
 export function Login() {
     const [formInputs, setFormInputs] = useState({usuario: "",senha: ""});

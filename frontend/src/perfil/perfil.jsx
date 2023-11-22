@@ -1,12 +1,12 @@
 import "./perfil.style.css"
-import { Titulo } from "../../component"
-import icon from "../../../assets/icon-usuario.svg"
-import { visualizarUsuario } from "../../../api/usuario/visualizar-usuario.api";
-import { alterarUsuario } from "../../../api/usuario/alterar-usuario.api"
+import { Titulo } from "../component"
+import icon from "../assets/icon-usuario.svg"
+import { visualizarUsuario } from "../api/usuario/visualizar-usuario.api";
+import { alterarUsuario } from "../api/usuario/alterar-usuario.api"
 import { useEffect, useState } from "react";
-import useGlobalUser from "../../../context/global-user.context"; 
+import useGlobalUser from "../context/global-user.context"; 
 
-export function Perfil() {
+export function perfil() {
     const [formInputs, setFormInputs] = useState({nome: "",data: "", descricao: ""});
     const [user] = useGlobalUser();
 

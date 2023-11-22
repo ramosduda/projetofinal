@@ -1,5 +1,5 @@
 import "./menu-profissional.style.css"
-import { Titulo } from "../../component"
+import { Titulo } from "../component"
 import { Link } from "react-router-dom";
 
 export function MenuProfissional() {

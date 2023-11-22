@@ -1,10 +1,10 @@
-import "./cadastro.style.css"
+import "../cadastro.style.css"
 import { useNavigate } from "react-router-dom/dist";
 import { useState } from "react";
-import { cadastro } from "../../../api/usuario/cadastro.api";
+import { cadastro } from "../api/usuario/cadastro.api";
 
-export function Cadastro() {
-    const [formInputs, setFormInputs] = useState({nome: "",data: "", email: "", senha: "",tipo: ""});
+export function cadastro() {
+    const [formInputs, setFormInputs] = useState({nome: "",data: "", email: "", senha: ""});
     const navigate = useNavigate();
 
 

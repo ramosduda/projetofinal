@@ -3,7 +3,7 @@ import "./nota.style.css"
 import { useParams } from "react-router-dom/";
 import { visualizarNota } from "../../../api/nota/visualizar-nota.api";
 
-export function Nota() {
+export function nota() {
     const { id } = useParams()
     const [nota, setNota] = useState({});
 

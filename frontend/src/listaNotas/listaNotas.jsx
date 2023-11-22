@@ -1,9 +1,9 @@
 import "./lista-notas.style.css"
-import { Titulo, NotaBotao } from "../../component"
+import { Titulo, NotaBotao } from "../component"
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom/dist";
-import { listarNotas } from "../../../api/nota/listar-notas.api";
-import useGlobalUser from "../../../context/global-user.context";
+import { listarNotas } from "../api/nota/listar-notas.api";
+import useGlobalUser from "../context/global-user.context";
 
 export function ListaNotas() {
     const [notas, setNotas] = useState([]);

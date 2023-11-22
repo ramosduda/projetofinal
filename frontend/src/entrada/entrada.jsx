@@ -1,10 +1,10 @@
 import "./entrada.style.css"
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import { Titulo } from "../../component"
-import useGlobalUser from "../../../context/global-user.context";
+import { Titulo } from "../component"
+import useGlobalUser from "../context/global-user.context";
 
-export function Entrada() {
+export function entrada() {
     const [, setGlobalUser] = useGlobalUser();
 
     useEffect(()=> {
