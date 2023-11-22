@@ -1,6 +1,6 @@
 import "./perfil.style.css"
 import { Titulo } from "../component"
-import icon from "../assets/icon-usuario.svg"
+import icon from "../assets/logo512.png"
 import { visualizarUsuario } from "../api/usuario/visualizar-usuario.api";
 import { alterarUsuario } from "../api/usuario/alterar-usuario.api"
 import { useEffect, useState } from "react";

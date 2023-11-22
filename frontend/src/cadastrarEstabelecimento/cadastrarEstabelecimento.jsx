@@ -2,7 +2,7 @@ import "./cadastrarEstabelecimento.style.css";
 import { useNavigate } from "react-router-dom/dist"; 
 import { useState } from "react";
 import useGlobalUser from "../context/global-user.context"; 
-import { adicionarEstabelecimento } from "../api/estabelecimento/cadastrar-estabelecimento.api";
+import { adicionarEstabelecimento } from "../api/estabelecimento/adicionar-estabelecimento.api";
 
 export function CadastrarEstabelecimento() {
     const [formInputs, setFormInputs] = useState({nome: "",area: "", telefone: "", local: ""});

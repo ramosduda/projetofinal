@@ -1,7 +1,7 @@
-import useGlobalUser from "../component/global-user.component";
+import useGlobalUser from "../../context/global-user.context";
 import { Navigate } from "react-router-dom";
 
-export function PrivateRouteUsuario({ Screen }) {
+export function FichaProfissional({ Screen }) {
   const [user] = useGlobalUser();
 
   if (user.tipo==="USUARIO") {

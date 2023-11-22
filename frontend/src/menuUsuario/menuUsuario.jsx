@@ -1,4 +1,4 @@
-import "./menu-usuario.style.css"
+import "./menuUsuario.style.css"
 import { Titulo } from "../component"
 import { Link } from "react-router-dom";
 

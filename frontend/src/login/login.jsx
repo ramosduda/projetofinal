@@ -59,7 +59,7 @@ export function Login() {
                 <button>Enviar</button>
                 </form>
             </section>
-            <RodapeLinha/>
+            {/* <RodapeLinha/> */}
         </div>
     )
 

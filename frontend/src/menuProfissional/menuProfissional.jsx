@@ -1,4 +1,4 @@
-import "./menu-profissional.style.css"
+import "./menuProfissional.style.css"
 import { Titulo } from "../component"
 import { Link } from "react-router-dom";
 

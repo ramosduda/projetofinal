@@ -1,6 +1,6 @@
 import { axiosInstance } from "../axios-instance.api"
 
-export async function cadastro({ nome,email,senha,data,tipo }) {
+export async function cadastroApi({ nome,email,senha,data,tipo }) {
   await axiosInstance.post(
     "/usuarios",
     {

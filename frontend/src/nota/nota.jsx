@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./nota.style.css"
 import { useParams } from "react-router-dom/";
-import { visualizarNota } from "../../../api/nota/visualizar-nota.api";
+import { visualizarNota } from "../api/nota/visualizar-notas.api";
 
 export function nota() {
     const { id } = useParams()

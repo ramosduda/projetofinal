@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom/dist";
 import { useState } from "react";
-import "./adicionar-nota.style.css"
-import { adicionarNota } from "../../../api/nota/adicionar-nota.api"
-import useGlobalUser from "../../../context/global-user.context"; 
+import "./adicionarNota.style.css"
+import { adicionarNota } from "../api/nota/adicionar-nota.api"
+import useGlobalUser from "../context/global-user.context"; 
 
 export function AdicionarNota() {
     const [formInputs, setFormInputs] = useState({nota: "", data: ""});

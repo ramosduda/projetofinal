@@ -1,4 +1,4 @@
-import "./nota-botao.style.css"
+import "./notaBotao.style.css"
 import { useNavigate } from "react-router-dom/dist"; 
 
 export function NotaBotao({id, data}) {

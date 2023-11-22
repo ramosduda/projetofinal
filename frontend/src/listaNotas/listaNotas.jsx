@@ -1,4 +1,4 @@
-import "./lista-notas.style.css"
+import "./listaNotas.style.css"
 import { Titulo, NotaBotao } from "../component"
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom/dist";

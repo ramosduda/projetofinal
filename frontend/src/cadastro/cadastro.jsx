@@ -1,7 +1,7 @@
-import "../cadastro.style.css"
+import "./cadastro.style.css"
 import { useNavigate } from "react-router-dom/dist";
 import { useState } from "react";
-import { cadastro } from "../api/usuario/cadastro.api";
+import { cadastroApi } from "../api/usuario/cadastro.api";
 
 export function cadastro() {
     const [formInputs, setFormInputs] = useState({nome: "",data: "", email: "", senha: ""});
@@ -19,7 +19,7 @@ export function cadastro() {
     async function handleSubmit(event) {
         event.preventDefault();
         try {
-            await cadastro({
+            await cadastroApi({
                 nome: formInputs.nome,
                 email: formInputs.email,
                 senha: formInputs.senha,
