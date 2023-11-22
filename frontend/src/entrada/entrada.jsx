@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { Titulo } from "../component"
 import useGlobalUser from "../context/global-user.context";
 
-export function entrada() {
+export function Entrada() {
     const [, setGlobalUser] = useGlobalUser();
 
     useEffect(()=> {

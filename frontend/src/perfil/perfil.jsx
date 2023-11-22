@@ -6,7 +6,7 @@ import { alterarUsuario } from "../api/usuario/alterar-usuario.api"
 import { useEffect, useState } from "react";
 import useGlobalUser from "../context/global-user.context"; 
 
-export function perfil() {
+export function Perfil() {
     const [formInputs, setFormInputs] = useState({nome: "",data: "", descricao: ""});
     const [user] = useGlobalUser();
 
